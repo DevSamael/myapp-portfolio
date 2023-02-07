@@ -4,7 +4,8 @@ const Landing = () => {
   return (
     <>
         <section id='Landing' className='w-full h-screen flex flex-col items-center justify-center'>
-          <img className='lg:h-96 md:h-84' src="/LandingLogo.svg" alt="" />
+          <img className='lg:hidden md:hidden' src="/LandingLogo.svg" alt="" />
+          <img className='hidden sm:hidden md:flex md:h-full lg:flex lg:h-full' src="/BigLandingLogo.svg" alt="" />
         </section>
         <div id='Spacer1'></div>
         <section id='About Me' className='w-full flex flex-col items-center bg-black'>
